@@ -1,0 +1,100 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+}
+
+.card {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-section, .center-section, .right-section {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.logo {
+    background: url(/logo.JPG);
+    font-size: 36px;
+    font-weight: bold;
+    color: #68b500;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 90px;
+    background-size: contain;
+}
+
+.discount {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.learn-more-button {
+    background: cornsilk;
+    border-style: none;
+    width: 150px;
+    height: 33px;
+    font-weight: 700;
+}
+
+.center-section .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.address p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.rating {
+    margin-top: 20px;
+}
+
+.stars {
+    color: #ffa500;
+    font-size: 16px;
+}
+
+.reviews {
+    font-size: 16px;
+}
+
+.reviews a {
+    color: #4285f4;
+    text-decoration: none;
+}
+
+.reviews a:hover {
+    text-decoration: underline;
+}
+
+.right-section {
+    text-align: center;
+}
+
+.right-section img {
+    max-width: 200px;
+    border-radius: 8px;
+}
+
+.offer {
+    margin-top: 10px;
+    font-size: 16px;
+}
